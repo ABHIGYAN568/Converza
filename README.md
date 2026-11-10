@@ -4,7 +4,6 @@
 **Converza** is an advanced, completely automatic intelligence pipeline designed to combat facts overload. Every few hours, it aggregates over 1,000 raw generation and AI articles, filtering them thru a sophisticated multi-agent LLM community. The stop end result is a highly delicate feed of 25 fact-checked, premium insights. 
 
 By leveraging GitHub Actions for compute and GitHub Pages for distribution, Converza operates absolutely on a serverless architecture—turning in countless scalability at certainly zero infrastructure price.
-
 ---
 
 ## 🛑 The Information Bottleneck
