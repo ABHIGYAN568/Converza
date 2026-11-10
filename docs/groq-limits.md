@@ -81,6 +81,3 @@ All text-to-speech models share the same rate limits:
 
 ### Model Selection Tips
 - Consider token limits when processing large documents
-
----
-Last updated : June 19 2025
