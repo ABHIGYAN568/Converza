@@ -1,137 +1,93 @@
-# ConsensusFeed 🚀  
-### A Serverless, Multi-Agent AI System for High-Quality Tech & Research News Curation
+﻿# Converza 🚀
+### An Autonomous, Serverless AI News Curation Engine Driven through Multi-Agent LLMs
 
-ConsensusFeed is an **automated AI-powered news intelligence platform** that collects **1000+ AI and technology articles** every few hours and distills them into **25 high-quality, fact-checked, explainable news items** using a **multi-agent LLM consensus pipeline**.
+**Converza** is an advanced, completely automatic intelligence pipeline designed to combat facts overload. Every few hours, it aggregates over 1,000 raw generation and AI articles, filtering them thru a sophisticated multi-agent LLM community. The stop end result is a highly delicate feed of 25 fact-checked, premium insights. 
 
-The system runs **entirely serverlessly** using GitHub Actions for computation and GitHub Pages for delivery, achieving **near-zero infrastructure cost** with **infinite read scalability**.
-
----
-
-## Problem Statement
-
-AI and tech professionals face severe information overload:
-
-- Thousands of repetitive, low-quality articles daily  
-- No reliable signal for credibility, bias, or impact  
-- Manual filtering wastes hours every week  
-- Traditional aggregators rely on keywords and popularity, not intelligence  
-
-The result is more noise than insight.
+By leveraging GitHub Actions for compute and GitHub Pages for distribution, Converza operates absolutely on a serverless architecture—turning in countless scalability at certainly zero infrastructure price.
 
 ---
 
-## Solution Overview
+## 🛑 The Information Bottleneck
 
-ConsensusFeed solves this using:
+Today's tech specialists are drowning in noise:
+- A day by day flood of thousands of low-effort, repetitive articles.
+- Zero reliable metrics for detecting media bias or actual credibility.
+- Traditional RSS feeds and keyword aggregators simply generate extra muddle.
+- Hours wasted manually sifting via feeds to locate real precious insights.
 
-- **Multi-agent LLM filtering** instead of single-model judgment  
-- **Explainable scoring** across relevance, novelty, credibility, and impact  
-- **Consensus-based decision making** to reduce bias and hallucinations  
-- **Fully serverless architecture** with no servers or databases  
-- **Static JSON APIs** that scale infinitely via CDN  
-
-The output is a **small, high-signal news set** that users can trust.
+**The end result:** High volume, low cost.
 
 ---
 
-## System Architecture
+## 💡 The Converza Approach
 
-30+ News Sources (RSS + APIs)
-            ↓
-Async Collection (Python)
-            ↓
-Stage 1: Bulk AI Filtering (Fast LLMs)
-            ↓
-Stage 2: Deep Intelligence (Fact, Bias, Credibility)
-            ↓
-Stage 3: Consensus Engine
-            ↓
-Static JSON APIs + AI Audio Digest
-            ↓
-GitHub Pages (CDN Cached)
+Converza flips the traditional information aggregator model the wrong way up:
+- **Multi-Agent Evaluation:** Instead of counting on a unmarried AI model, a network of LLMs debate and rating articles.
+- **Transparent Scoring:** Every curated piece is graded on novelty, factual accuracy, impact, and relevance.
+- **Zero-Server Ecosystem:** Eliminates steeply-priced cloud backends and databases.
+- **Static Delivery:** Outputs are compiled into static JSON APIs and dispensed globally thru CDN, making it uncrashable.
 
 ---
 
-## Core Features
+## ⚙️ Architecture &amp; Data Flow
 
-- Multi-agent AI pipeline (Bulk → Deep → Consensus)
-- Explainable article scoring across multiple dimensions
-- Coverage of academic, industry, open-source, and government sources
-- AI-generated audio news digest
-- Fully automated CI/CD pipeline running every 4 hours
-- Zero-infrastructure deployment
-- Open and auditable decision logic
-
----
-
-## Tech Stack and Design Rationale
-
-Backend: Python 3.11  
-LLMs: Groq API (LLaMA, Gemma)  
-Frontend: Vanilla JavaScript + HTML  
-Orchestration: GitHub Actions  
-Hosting: GitHub Pages  
-Data Storage: Static JSON  
-Audio: Gemini TTS  
-
-Design principle: **Maximum intelligence with minimum infrastructure**.
+**Ingestion:** 30+ Tech &amp; Academic Sources (APIs/RSS)  
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;⏬  
+**Phase 1: High-Speed Triage** (Fast LLMs immediately discard 70% of irrelevant facts)  
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;⏬  
+**Phase 2: Deep Analysis** (Fact-checking, bias detection, and credibility scoring)  
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;⏬  
+**Phase three: The Consensus Engine** (Final selection of the top 25 insights)  
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;⏬  
+**Generation:** Static JSON Feeds + AI-Voiced Audio Digests  
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;⏬  
+**Distribution:** Cached globally through GitHub Pages  
 
 ---
 
-## Multi-Agent Consensus Pipeline
+## ✨ Platform Highlights
 
-1. Bulk intelligence stage filters ~1000 articles to ~300  
-2. Deep intelligence stage performs fact, bias, and credibility checks  
-3. Consensus engine produces final 25 curated articles  
-
-This design minimizes hallucinations and reduces single-model bias.
-
----
-
-## Cost and Performance
-
-- ~1000 articles processed per run  
-- ~25 final curated articles  
-- ~44 minutes per pipeline execution  
-- ~$0 per month total cost  
-- ~20× cheaper than traditional cloud architectures  
-
-Static APIs ensure user traffic does not increase backend costs.
+- **Multi-Tiered AI Vetting:** Bulk filtering followed by deep intelligence exams.
+- **Explainable AI Curation:** Know exactly *why* an editorial became decided on.
+- **Broad Source Spectrum:** Monitors enterprise blogs, open-supply repos, academic journals, and authorities tech updates.
+- **Audio Digests:** Automated text-to-speech news summaries using Gemini TTS.
+- **Self-Sustaining CI/CD:** Scheduled workflows execute robotically each four hours.
+- **Auditable Logic:** Completely transparent decision-making system.
 
 ---
 
-## Running Locally
+## 🛠️ Technology Stack
 
-git clone https://github.com/Dixitraj281/consensusfeed
-cd consensusfeed  
-python3 -m venv venv  
-source venv/bin/activate  
-pip install -r requirements.txt  
-python src/backend/orchestrator.py  
+Our guiding principle: **Maximum processing intelligence with minimal infrastructure overhead.**
 
----
-
-## Deployment
-
-- Fully automated via GitHub Actions  
-- Executes every 4 hours  
-- Generates updated JSON APIs and audio digest  
-- Deploys automatically to GitHub Pages  
+- **Core Engine:** Python 3.Eleven  
+- **AI Models:** Groq API (LLaMA, Gemma)  
+- **Client Side:** Vanilla JavaScript &amp; HTML5  
+- **Pipeline Orchestration:** GitHub Actions  
+- **Hosting &amp; CDN:** GitHub Pages  
+- **Database:** Static JSON files  
+- **Voice Synthesis:** Gemini TTS  
 
 ---
 
-## Future Scope
+## 📊 Economics &amp; Performance Metrics
 
-- Personalized feeds per user  
-- Real-time breaking news alerts  
-- Newsletter and Slack integrations  
-- Source reliability tracking  
-- Topic clustering and trend prediction  
-- Monetized API access  
+- **Input:** ~1,000 uncooked links in line with cycle  
+- **Output:** The absolute pleasant ~25 articles  
+- **Processing Time:** ~forty five minutes per execution  
+- **Operating Cost:** **$0.00 / month** (Fraction of conventional cloud setups)  
+- **Scalability:** Static JSON APIs mean tens of millions of users can fetch facts with out increasing backend load.
 
 ---
 
-## Author
+## 💻 Running the Engine Locally
 
-Dixitraj  
-Software Engineer | AI Systems | Distributed Pipelines
+Want to test the pipeline on your personal gadget? Follow those steps:
+
+```bash
+git clone [https://github.Com/AbhigyanRaj/Converza.Git](https://github.Com/AbhigyanRaj/Converza.Git)
+cd Converza
+python3 -m venv venv
+supply venv/bin/activate  # Use `venvScriptsactivate` on Windows
+pip deploy -r necessities.Txt
+python src/backend/orchestrator.Py
