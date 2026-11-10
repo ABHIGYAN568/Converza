@@ -31,17 +31,18 @@ Converza flips the traditional information aggregator model the wrong way up:
 
 ## ⚙️ Architecture &amp; Data Flow
 
-**Ingestion:** 30+ Tech &amp; Academic Sources (APIs/RSS)  
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;⏬  
-**Phase 1: High-Speed Triage** (Fast LLMs immediately discard 70% of irrelevant facts)  
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;⏬  
+
+**Ingestion:** 30+ Tech & Academic Sources (APIs/RSS)  
+&nbsp;&nbsp;&nbsp;&nbsp;⏬  
+**Phase 1: High-Speed Triage** (Fast LLMs instantly discard 70% of irrelevant data)  
+&nbsp;&nbsp;&nbsp;&nbsp;⏬  
 **Phase 2: Deep Analysis** (Fact-checking, bias detection, and credibility scoring)  
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;⏬  
-**Phase three: The Consensus Engine** (Final selection of the top 25 insights)  
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;⏬  
+&nbsp;&nbsp;&nbsp;&nbsp;⏬  
+**Phase 3: The Consensus Engine** (Final selection of the top 25 insights)  
+&nbsp;&nbsp;&nbsp;&nbsp;⏬  
 **Generation:** Static JSON Feeds + AI-Voiced Audio Digests  
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;⏬  
-**Distribution:** Cached globally through GitHub Pages  
+&nbsp;&nbsp;&nbsp;&nbsp;⏬  
+**Distribution:** Cached globally via GitHub Pages  
 
 ---
 
